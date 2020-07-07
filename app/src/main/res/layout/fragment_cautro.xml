@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/regprofile"
+    tools:context=".CautroFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:text="click this button"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"/>
+
+
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Sign Out"
+       android:layout_marginTop="340dp"
+       android:layout_marginStart="45dp"
+       android:layout_marginEnd="45dp"/>
+
+</FrameLayout>

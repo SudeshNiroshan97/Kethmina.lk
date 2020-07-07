@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdvertismentsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:title="Advertisments"
+        app:titleTextColor="@color/colorWhite"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:hint="welcome to the community"
+         android:textStyle="bold"
+         android:layout_marginTop="70dp"
+         android:textSize="25sp"
+         android:textColor="@android:color/black"
+         android:gravity="center"/>
+
+
+    <TextView
+        android:layout_width="500dp"
+        android:id="@+id/ParentName"
+        android:layout_height="30dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="45dp"
+        android:text="Say Something"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/textinputboarder" />
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="300dp"
+        android:text="Create a post        :"
+        android:inputType="text"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/TypeMessage"
+        android:layout_width="390dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/textinputboarder" />
+
+    <Button
+        android:id="@+id/Send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="650dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/shape_gradient_button"
+        android:text="SEND"
+        android:textColor="@color/colorWhite" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

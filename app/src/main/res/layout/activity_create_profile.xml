@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateProfileActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Your Profile"
+        android:textColor="#96FF3B"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's get some information to make your profile stand out."
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="35dp" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="220dp"
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:drawableTint="@color/colorPrimary"
+            android:id="@+id/Professional"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Professional Status"
+            android:inputType="textEmailAddress" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="270dp"
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:drawableTint="@color/colorPrimary"
+            android:id="@+id/Company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Company"
+            android:inputType="textEmailAddress" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="320dp"
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:drawableTint="@color/colorPrimary"
+            android:id="@+id/Website"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Website"
+            android:inputType="textEmailAddress" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="370dp"
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:drawableTint="@color/colorPrimary"
+            android:id="@+id/Location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Location"
+            android:inputType="textEmailAddress" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="420dp"
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:drawableTint="@color/colorPrimary"
+            android:id="@+id/Skills"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Skills"
+            android:inputType="textEmailAddress" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="470dp"
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:drawableTint="@color/colorPrimary"
+            android:id="@+id/FarmingMethod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Farming Method"
+            android:inputType="textEmailAddress" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="520dp"
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:drawableTint="@color/colorPrimary"
+            android:id="@+id/Bio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="A short bio of yourself"
+            android:inputType="textEmailAddress" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/Submit"
+        android:textColor="@color/colorWhite"
+        android:text="Submit"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/shape_gradient_button"
+        android:layout_marginTop="640dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

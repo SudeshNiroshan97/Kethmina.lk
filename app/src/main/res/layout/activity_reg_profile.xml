@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/regprofile"
+    tools:context=".RegProfileActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You have not yet setup profile.\nPlease Provide more info."
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="200dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="35dp" />
+   <!-- <Button
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:background="@drawable/btncreateprofile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"/>-->
+
+    <Button
+        android:id="@+id/CreateProfile"
+        android:layout_marginTop="380dp"
+        android:background="@drawable/shape_gradient_button"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_width="match_parent"
+        android:text="CREATE PROFILE"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+
+</RelativeLayout>

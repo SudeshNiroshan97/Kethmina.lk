@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/uno"
+        android:icon="@drawable/dashboard"
+        android:title="DashBoard" />
+
+    <item
+        android:id="@+id/dos"
+        android:icon="@drawable/euser"
+        android:title="Employees" />
+
+    <item
+        android:id="@+id/tres"
+        android:icon="@drawable/post"
+        android:title="Post" />
+
+    <item
+        android:id="@+id/cautro"
+        android:icon="@drawable/logout"
+        android:title="SignOut" />
+
+</menu>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1B536D</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="blueDark">#81ecec</color>
+    <color name="orange">#ffdd59</color>
+    <color name="white">#ffffff</color>
+
+
+
+    <color name="colorSplashStart">#6633ba43</color>
+    <color name="colorSplashEnd">#6692c755</color>
+
+    <color name="btnStartColor">#04743a</color>
+    <color name="btnEndColor">#06582c</color>
+    <color name="ColorEditTextBg">#8845b23e</color>
+    <color name="login_form_details_light">#1affffff</color>
+    <color name="login_form_details">#ccffffff</color>
+    <color name="black">#1e272e</color>
+
+    <color name="darkblue">#3023AE</color>
+    <color name="purple">#c86dd7</color>
+
+    <color name="colorWhite">#fff</color>
+
+    <color name="colorPrimaryLite">#40809D</color>
+
+
+
+
+
+
+</resources>
